@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+    background-color:#f0f2f5;
+    width:fit-content;
+}
+
+div.container1{
+    position:relative;
+    top:20rem;
+    margin-left: 8rem;
+}
+
+div.container2{
+
+    position:relative;
+    left:60.8rem;
+    top:-1rem;
+    display:flex;
+    flex-direction: column;
+    width:29rem;
+    height:25rem;
+    background-color: #fff;
+    
+}
+div.container2 input , div.container2 button, div.container2 a, div.container2 p{
+    margin: 0.5rem 0;
+    height:5rem;
+    width:26rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+input , button#log-in{
+    height:2.5rem;
+    width:20rem;
+}
+
+div,input,button{
+    border:2px;
+    border-radius: 10px;
+}
+
+div.container2 input{
+    border:0.8px solid #aea4a4;
+    padding: 1.5rem;
+    font-size: larger;
+}
+
+p#footer{
+    position:relative;
+    left:65rem;
+    top:0.8rem;
+}
+
+button#log-in{
+    background-color: #1877f2;
+    width:26rem;
+    height:10rem;
+    font-size:25px;
+    color: white;
+    font-weight: bolder;
+}
+
+a#forgot-password{
+    text-decoration: none;
+    position: relative;
+    left:10rem;
+
+}
+
+button#new-account{
+    background-color: #42b72a;
+    width:15rem;
+    height:10rem;
+    position:relative;
+    left:6rem;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+p#footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+button#log-in:hover , a#forgot-password:hover, button#new-account:hover, div#footer a:hover{
+    cursor:pointer;
+}
+
+p#footer a:hover ,  a#forgot-password:hover{
+    text-decoration: underline;
+}
+
+button#log-in:hover{
+    background-color: rgb(19 112 234);
+}
+
+button#new-account:hover{
+    background-color: rgb(63 179 40);
+}
+
+
+div.container1{
+    position: relative;
+    left:9rem;
+    top:15rem;
+}
+
+div.container1 h1{
+    color:blue;
+    font-size: 80px;
+    font-weight: 900;
+}
+
+div.container1 p{
+    font-size:35px;
+}
+
+input:focus{
+    outline: 0.8px solid blue;
+    
+}
